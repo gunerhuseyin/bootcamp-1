@@ -4,6 +4,7 @@ import java.util.List;
 
 public class Email {
 
+    // Do one thing!!
     public void sendEmail(List<Customer> customers) {
         for (Customer customer : customers) {
             if (isCustomerActive(customer)) {

@@ -1,8 +1,9 @@
 package org.kodluyoruz.trendyol.f.dependencyinversion.good.notification;
 
 
-import com.sun.tools.javac.util.List;
 import org.kodluyoruz.trendyol.f.dependencyinversion.good.notification.channel.Channel;
+
+import java.util.List;
 
 public class Sender {
     private final List<Channel> channels;
