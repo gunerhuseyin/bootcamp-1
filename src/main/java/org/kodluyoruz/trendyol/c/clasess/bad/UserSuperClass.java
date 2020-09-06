@@ -4,21 +4,26 @@ import java.util.Date;
 import java.util.List;
 
 public class UserSuperClass {
+
+    private String nickname;
     private String username;
     private String name;
     private String surname;
     private String phone;
     private Date dateOfBirth;
     private String email;
+
     private List<String> comments;
+
     private List<String> friends;
+
     private boolean isNewUser;
     private boolean isSuperUser;
     private boolean isAdmin;
+
     private int loginCount;
     private int resetPasswordCount;
     private boolean isBlocked;
-    private String nickname;
     private List<String> loginIpAddress;
 
     public String getUsername() {
