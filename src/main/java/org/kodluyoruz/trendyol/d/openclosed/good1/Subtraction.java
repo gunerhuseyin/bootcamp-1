@@ -1,4 +1,4 @@
-package org.kodluyoruz.trendyol.d.openclosed.bad1;
+package org.kodluyoruz.trendyol.d.openclosed.good1;
 
 public class Subtraction implements CalculatorOperation {
     private double left;
@@ -23,5 +23,10 @@ public class Subtraction implements CalculatorOperation {
 
     public void setRight(double right) {
         this.right = right;
+    }
+
+    @Override
+    public double perform() {
+        return left - right;
     }
 }

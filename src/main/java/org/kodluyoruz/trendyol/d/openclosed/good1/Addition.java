@@ -1,10 +1,10 @@
-package org.kodluyoruz.trendyol.d.openclosed.bad1;
+package org.kodluyoruz.trendyol.d.openclosed.good1;
 
-public class Subtraction implements CalculatorOperation {
+public class Addition implements CalculatorOperation {
     private double left;
     private double right;
 
-    public Subtraction(double left, double right) {
+    public Addition(double left, double right) {
         this.left = left;
         this.right = right;
     }
@@ -23,5 +23,10 @@ public class Subtraction implements CalculatorOperation {
 
     public void setRight(double right) {
         this.right = right;
+    }
+
+    @Override
+    public double perform() {
+        return left + right;
     }
 }
